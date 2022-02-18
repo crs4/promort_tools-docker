@@ -5,7 +5,7 @@ RUN groupadd promort && useradd -mg promort promort
 
 ENV HOME=/home/promort
 
-ARG PROMORT_TOOLS_VERSION=0.1.1
+ARG PROMORT_TOOLS_VERSION=0.1.2
 
 WORKDIR /tmp
 
